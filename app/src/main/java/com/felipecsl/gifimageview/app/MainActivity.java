@@ -3,13 +3,14 @@ package com.felipecsl.gifimageview.app;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.felipecsl.gifimageview.library.GifImageView;
 
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Log.d(TAG, "GIF width is " + gifImageView.getGifWidth());
         Log.d(TAG, "GIF height is " + gifImageView.getGifHeight());
       }
-    }.execute("http://katemobile.ru/tmp/sample3.gif");
+    }.execute("https://img2018.cnblogs.com/blog/1363478/201904/1363478-20190416234917600-1706047481.gif");
   }
 
 
